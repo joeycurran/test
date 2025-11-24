@@ -1,5 +1,2 @@
-
-PR3 introduces refactors, renames, and cyclic imports for aggressive context testing.
-
-
-
+# Big Overhaul
+New metrics engine, vector norms, reporting logic, and analytics layer.
