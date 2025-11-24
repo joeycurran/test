@@ -13,3 +13,9 @@ def compute_weighted_avg(values, weights):
 
 def compute_bias_adjusted_avg(values, bias):
     return sum(values) / len(values) + bias
+
+def normalise_vector(values):
+    total = sum(values)
+    if total == 0:
+        return values
+    return [v / total for v in values]
